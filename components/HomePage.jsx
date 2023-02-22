@@ -18,7 +18,7 @@ const HomePage = () => {
 
         <p className='text-gray-600 text-xl max-w-sm mx-auto'>
           I am a lifelong Engineer with 16 years work experience, an apprenticeship and a engineering degree. 
-          I made the huge decision to retrain to use my skills as a software engineer and graduated from the School of Code in February 2023!
+          I wanted to use these skills in the tech world and made the huge decision to retrain as a Software Engineer and graduated from the School of Code in February 2023!
         </p>
 
         <Link href="/#me">
