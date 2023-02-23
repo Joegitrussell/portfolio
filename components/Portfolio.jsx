@@ -3,6 +3,8 @@ import { MdExpandMore } from 'react-icons/md'
 import Link from 'next/link'
 import Image from 'next/image'
 import foodbank from '../public/foodbank.jpg'
+import studyhub from '../public/studyhub.jpg'
+import pokedex from '../public/pokedex.jpg'
 
 const Portfolio = () => {
 
@@ -12,7 +14,19 @@ const Portfolio = () => {
             title: ' The Foodbank Network',
             imageSrc: foodbank,
             url: "https://foodbanknetwork.vercel.app",
-        }
+        },
+        {
+          id: 2,
+          title: ' The Study Hub',
+          imageSrc: studyhub,
+          url: "https://joerussell-week9-teamproject.vercel.app/",
+      },
+      {
+        id: 1,
+        title: 'Pokedex',
+        imageSrc: pokedex,
+        url: "https://bc13-w2d5-hackathon-fetch-room-48-joe-and-fe40b9el8.vercel.app/",
+    }
     ]
   return (
     <div id="portfolio" className='w-full'>
