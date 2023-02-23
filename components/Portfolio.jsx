@@ -23,7 +23,7 @@ const Portfolio = () => {
                 portfolio
             </h2>
             <p className='py-4 max-w-lg'>
-                testing test fummy dummy
+                {/* //testing test fummy dummy */}
             </p>
             <div className='max-w-5xl mx-auto grid md:grid-cols-2
             gap-8'>

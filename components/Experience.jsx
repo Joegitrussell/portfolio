@@ -90,7 +90,7 @@ const Experience = () => {
                 Experience
             </h2>
             <p className='py-4 max-w-lg'>
-                testing test fummy dummy
+                {/* testing test fummy dummy */}
             </p>
             <div className='grid lg:grid-cols-4 gap-8'>
                 {
