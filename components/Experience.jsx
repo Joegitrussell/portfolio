@@ -82,7 +82,7 @@ const Experience = () => {
     ]
 
   return (
-    <div id="Experience" className="w-full">
+    <div id="experience" className="w-full">
       <div className='max-w-screen-xl mx-auto px-8 py-16
         text-center md:text-left'>
             <h2 className='text-5xl md:text-7xl tracking-wider
