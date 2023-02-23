@@ -58,14 +58,14 @@ const Portfolio = () => {
             </div>
 
         <div className='flex items-center justify-center'>
-        <Link href="/portfolio">
+        {/* <Link href="/portfolio">
           <div className='group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold upercase rounded-md tracking-wider'>
           All Projects
             <span className='-rotate-90 duration-100 ease-in group-hover:rotate-0'>
               <MdExpandMore size={25} />
             </span>
           </div>
-        </Link>
+        </Link> */}
         </div>
         </div>
     </div>
