@@ -96,7 +96,8 @@ const Experience = () => {
                 {
                     experiences.map(({id, title, src}) => (
                     <div key={id} className="flex flex-col
-                    lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+                    lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300
+                    odd:shadow-rose-400 even:shadow-blue-400">
 
                         <Image src={src} width="64" height="64" alt={title} />
                         <h3 className='font-light'>{title}</h3>
