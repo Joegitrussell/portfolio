@@ -8,7 +8,7 @@ const Navbar = () => {
     const [pageScroll, setPageScroll] = useState(false)
 
         useEffect(() => {
-            const sub = window.addEventListener('scrol', () =>
+            const sub = window.addEventListener('scroll', () =>
             setPageScroll(window.scrollY >=90))
             return sub;
         }, [])
