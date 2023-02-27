@@ -44,13 +44,13 @@ const Me = () => {
                 <div className='flex items-center justify-center gap-10'>
                     <Link href='/Joe_Russell_CV.pdf' download={true}>
                         <div className='group flex items-cener justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer'>
-                       Curriculum vitae
+                       CV
                             <span className='-rotate-90 duration-100 ease-in group-hover:rotate-0'>
                                 <MdExpandMore size={25}/>
                             </span>
                         </div>
                     </Link>
-                    <Link href="/portfolio">
+                    <Link href="/#portfolio">
                     <div className='group flex items-cener justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer'>
                        my portfolio
                             <span className='-rotate-90 duration-100 ease-in group-hover:rotate-180'>
