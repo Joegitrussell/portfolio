@@ -30,10 +30,10 @@ const Navbar = () => {
             id:4,
             link: 'me'
         },
-        // {
-        //     id:5,
-        //     link: 'contact'
-        // },
+        {
+            id:5,
+            link: 'contact'
+        },
        
     ]
   return (
