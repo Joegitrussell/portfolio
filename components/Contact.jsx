@@ -40,7 +40,7 @@ const Contact = () => {
              </div>
 
              <div className='"w-full md:w-1/2 h-full rounded-xlp-4'>
-                <div className='p-4 text-left'>
+                <div className='hidden md:block p-4 text-left'>
                     <form action="https://getform.io/f/c72e6266-e8b3-4fd2-85d9-c5e63ceaa0bf"
                             method="POST">
                         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
