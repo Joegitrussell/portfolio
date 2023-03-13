@@ -11,11 +11,11 @@ const HomePage = () => {
        p-4 flex flex-col justify-around items-center'>
         <div className='w-64 h-64 mx-auto overflow-hidden rounded-xl'>
           <Image src={photo} alt="profile photo"/>
-          </div>
+        </div>
         <h1 className="uppercase font-bold text-gray-700 text-7xl">
           Aspiring Software Engineer
         </h1>
-        
+
         <p className='text-gray-600 text-xl max-w-sm mx-auto'>
           I am a lifelong Engineer with 16 years work experience, an apprenticeship and a engineering degree. 
           I wanted to use these skills in the tech world and made the huge decision to retrain as a Software Engineer and graduated from the School of Code in February 2023!
