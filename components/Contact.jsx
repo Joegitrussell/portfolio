@@ -6,7 +6,7 @@ import {FaBars, FaTimes, FaGithub, FaTwitter, FaLinkedin} from 'react-icons/fa'
 const Contact = () => {
   return (
     <div id="contact" className='w-full'>
-        <div className='max-w-screen-xl mx-auto px-8 py-16
+        <div className='max-w-screen-xl mx-auto  px-20 py-20
     text-center md:text-left'>
              <h2 className='text-5xl md:text-7xl tracking-wider
         uppercase text-blue-500 font-bold'>
@@ -21,18 +21,21 @@ const Contact = () => {
                     Please reach out, I would love to hear about any opportunities and make new connections
                 </p>
                 <div className='grid grid-cols-3 mx-auto w-4/5 gap-10'>
-                        <div className='flex items-center justify-center rounded-full shadow-md
+                <a href="https://www.linkedin.com/in/joe-russell-b-eng/" target="_blank"><div className='flex items-center justify-center rounded-full shadow-md
                             shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer'>
                             <FaLinkedin size={25}/>
                         </div>
-                        <div className='flex items-center justify-center rounded-full shadow-md
+                        </a>
+                        <a href="https://github.com/Joegitrussell" target="_blank"><div className='flex items-center justify-center rounded-full shadow-md
                             shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer'>
                             <FaGithub size={25}/>
                         </div>
-                        <div className='flex items-center justify-center rounded-full shadow-md
+                        </a>
+                        <a href="https://twitter.com/JoeRuss07566144?t=xcrBi_BLU_OKZwGXh8gBqw&s=03" target="_blank"><div className='flex items-center justify-center rounded-full shadow-md
                             shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer'>
                             <FaTwitter size={25}/>
                         </div>
+                        </a>
                     </div>
              </div>
 

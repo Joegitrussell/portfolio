@@ -4,7 +4,7 @@ import { MdExpandMore } from 'react-icons/md'
 const Me = () => {
   return (
     <div id="me" className="w-full">
-      <div className='max-w-screen-xl mx-auto px-8 py-16
+      <div className='max-w-screen-xl mx-auto  px-20 py-20
         text-center md:text-left'>
             <h2 className='text-5xl md:text-7xl tracking-wider
             uppercase text-blue-500 font-bold'>
