@@ -5,6 +5,7 @@ import Image from 'next/image'
 import foodbank from '../public/foodbank.jpg'
 import studyhub from '../public/studyhub.jpg'
 import pokedex from '../public/pokedex.jpg'
+import lego from '../public/lego.png'
 
 const Portfolio = () => {
 
@@ -32,7 +33,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: 'Lego Tribute Page',
-      imageSrc: pokedex,
+      imageSrc: lego,
       url: "https://school-of-code-pre-work.vercel.app/",
   }
     ]
@@ -52,7 +53,7 @@ const Portfolio = () => {
 
             {portfolios.map(({id, title, imageSrc, url, explanation}) => (
              //   <Link key ={id} href={`/portfolio/${url}`}>
-             <div>
+            
              <Link key ={id} href={url} target="_blank">
                     <div className="cursor-pointer group shadow-ms
                     shadow-grey-600 overflow-hidden round-md">
@@ -60,10 +61,10 @@ const Portfolio = () => {
                         <h2 className='text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4'>
                             {title}
                         </h2>
+                        <p>{explanation}</p>
                     </div>
                 </Link>
-                <p>{explanation}</p>
-                </div>
+               
             ))}
 
             </div>
