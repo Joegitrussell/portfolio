@@ -24,11 +24,17 @@ const Portfolio = () => {
           explanation:"A One week group project at Week 8 of the Bootcamp. Enables students to easily receive more information around study topics and then comment to enable communication. Made exclusively for desktop use. Tech stack: React, CSS, Node.JS, Express, Jest, Cypress and Vercel"
       },
       {
-        id: 1,
+        id: 3,
         title: 'Pokedex',
         imageSrc: pokedex,
         url: "https://bc13-w2d5-hackathon-fetch-room-48-joe-and-fe40b9el8.vercel.app/",
-    }
+    },
+    {
+      id: 4,
+      title: 'Lego Tribute Page',
+      imageSrc: pokedex,
+      url: "https://school-of-code-pre-work.vercel.app/",
+  }
     ]
   return (
     <div id="portfolio" className='w-full'>

@@ -11,7 +11,7 @@ export default function Home() {
       <Portfolio/>
       <Experience/>
       <Me/>
-      <Contact/>
+      {/* <Contact/> */}
     </div>
   )
 }
