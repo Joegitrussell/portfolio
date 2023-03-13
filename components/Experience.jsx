@@ -16,6 +16,11 @@ const Experience = () => {
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
         },
         {
+            id:16,
+            title:"Tailwind",
+            src: "https://cdn.worldvectorlogo.com/logos/tailwind-css-1.svg" 
+        },
+        {
             id:3,
             title:"Javascript",
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"

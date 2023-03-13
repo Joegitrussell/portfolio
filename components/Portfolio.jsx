@@ -45,8 +45,9 @@ const Portfolio = () => {
         text-center md:text-left'>
             <h2 className='text-5xl md:text-7xl tracking-wider
             uppercase text-blue-500 font-bold'>
-                portfolio
+                Portfolio
             </h2>
+            <p>Click on the Image to be taken to the deployed site</p>
             <p className='py-4 max-w-lg'>
                 {/* //testing test fummy dummy */}
             </p>
