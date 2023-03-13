@@ -4,11 +4,11 @@ import { MdExpandMore } from 'react-icons/md'
 const Me = () => {
   return (
     <div id="me" className="w-full">
-      <div className='max-w-screen-xl mx-auto  px-20 py-20
+      <div className='max-w-screen-xl mx-auto  px-8 py-20
         text-center md:text-left'>
-            <h2 className='text-5xl md:text-7xl tracking-wider
+            <h2 className='text-5xl md:text-2xl tracking-wider
             uppercase text-blue-500 font-bold'>
-                Me
+               About Me
             </h2>
             <div className='shadow-xl shadow-blue-300 my-8 px-8'>
                 <h1 className='py-4 max-w-3xl mx-auto'>Whats my story?</h1>

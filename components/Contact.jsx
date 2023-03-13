@@ -6,7 +6,7 @@ import {FaBars, FaTimes, FaGithub, FaTwitter, FaLinkedin} from 'react-icons/fa'
 const Contact = () => {
   return (
     <div id="contact" className='w-full'>
-        <div className='max-w-screen-xl mx-auto  px-20 py-20
+        <div className='max-w-screen-xl mx-auto  px-8 py-20
     text-center md:text-left'>
              <h2 className='text-5xl md:text-7xl tracking-wider
         uppercase text-blue-500 font-bold'>
