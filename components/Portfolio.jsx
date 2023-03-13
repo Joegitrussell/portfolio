@@ -15,26 +15,28 @@ const Portfolio = () => {
             title: ' The Foodbank Network',
             imageSrc: foodbank,
             url: "https://foodbanknetwork.vercel.app",
-            explanation:"A Four week group project at the end of the Bootcamp. A Foodbank Finder App allowing users to type in a location and return a list of Foodbanks in the area utilising a Foodbank API and the Google Maps API as well as an Supabase SQL backend for comments and community functionality. UI/UX based upon market research to keep the App easy to use with low cognitive load and fully mobile responsive. Tech stack: Next.js, Tailwind, Supabase SQL, Supabase Auth, Jest, React testing library, Cypress and Vercel"
+            explanation:"Four week group project at the end of the Bootcamp. A Foodbank Finder App allowing users to type in a location and return a list of Foodbanks in the area utilising a Foodbank API and the Google Maps API as well as an Supabase SQL backend for comments and community functionality. UI/UX based upon market research to keep the App easy to use with low cognitive load and fully mobile responsive. Tech stack: Next.js, Tailwind, Supabase SQL, Supabase Auth, Jest, React testing library, Cypress and Vercel"
         },
         {
           id: 2,
           title: ' The Study Hub',
           imageSrc: studyhub,
           url: "https://joerussell-week9-teamproject.vercel.app/",
-          explanation:"A One week group project at Week 8 of the Bootcamp. Enables students to easily receive more information around study topics and then comment to enable communication. Made exclusively for desktop use. Tech stack: React, CSS, Node.JS, Express, Jest, Cypress and Vercel"
+          explanation:"One week group project at Week 8 of the Bootcamp. Enables students to easily receive more information around study topics and then comment to enable communication. Made exclusively for desktop use. Tech stack: React, CSS, Node.JS, Express, Jest, Cypress and Vercel"
       },
       {
         id: 3,
         title: 'Pokedex',
         imageSrc: pokedex,
         url: "https://bc13-w2d5-hackathon-fetch-room-48-joe-and-fe40b9el8.vercel.app/",
+        explanation:"Created with another Bootcamper at the end of first week learning Javascript. Using a public Pokemon API and Vanilla Javascript to generate a random pokemon when activated: Tech stack: HTML, CSS, Javascript and Vercel"
     },
     {
       id: 4,
       title: 'Lego Tribute Page',
       imageSrc: lego,
       url: "https://school-of-code-pre-work.vercel.app/",
+      explanation:"A Tribute page to my favorite hobby Lego! Created as part of the application process to School of Code Bootcamp before any formal training. Tech Stack: HTML, CSS and Vercel"
   }
     ]
   return (
